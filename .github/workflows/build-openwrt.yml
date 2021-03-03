@@ -81,7 +81,6 @@ jobs:
 
     - name: SSH connection to Actions
       uses: be-engineer/debugger-action
-      uses: csexton/debugger-action@master
       if: env.SSH_ACTIONS == 'true'
 
     - name: Download package
